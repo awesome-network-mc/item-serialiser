@@ -1,0 +1,8 @@
+main: xyz.awesomenetwork.itemserialiser.ItemSerialiser
+name: ${project.artifactId}
+version: ${project.version}
+author: MFN
+api-version: 1.18
+commands:
+  serialise:
+    description: Outputs the serialised version of the player's held item and logs it to console for copy/pasting
