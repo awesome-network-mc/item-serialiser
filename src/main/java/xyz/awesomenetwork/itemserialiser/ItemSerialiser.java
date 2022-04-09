@@ -38,6 +38,7 @@ public class ItemSerialiser extends JavaPlugin {
 
 		TextComponent component = new TextComponent(serialised);
 		component.setClickEvent(new ClickEvent(ClickEvent.Action.COPY_TO_CLIPBOARD, serialised));
+		component.setUnderlined(true);
 		player.spigot().sendMessage(component);
 
 		return true;
